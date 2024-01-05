@@ -1,0 +1,42 @@
+.box {
+  /* margin-top: 6rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: aqua; */
+}
+
+.logo-benefit-systems {
+  /* transform: scale(0.2); */
+  max-width: 20vw;
+}
+
+.front-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+section {
+  /* border: solid 2px red; */
+  width: 50%;
+}
+
+.LP-right-side {
+  /* background-color: blue; */
+  padding: 2rem;
+  text-align: center;
+}
+
+.LP-left-side {
+  background-color: rgb(190, 225, 255);
+}
+
+.LP-logo-card {
+  max-width: 10vw;
+}
