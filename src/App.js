@@ -3,7 +3,7 @@ import LoginPage from './Components/LoginPage';
 
 function App() {
   return (
-    <div >
+    <div className='App-background'>
       <LoginPage/>
     </div>
   );

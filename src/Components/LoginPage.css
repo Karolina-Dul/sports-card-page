@@ -17,9 +17,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: inherit;
   margin: auto;
   margin-top: 5rem;
+  background-color: white;
 }
 
 section {
@@ -31,10 +32,11 @@ section {
   /* background-color: blue; */
   padding: 2rem;
   text-align: center;
+  background-color: white;
 }
 
 .LP-left-side {
-  background-color: rgb(190, 225, 255);
+  background-color: white;
 }
 
 .LP-logo-card {
