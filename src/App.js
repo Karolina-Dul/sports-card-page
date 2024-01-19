@@ -1,10 +1,20 @@
+
 import './App.css';
-import LoginPage from './Components/LoginPage';
+import LoginPage from './Components/LoginPage/LoginPage';
+import MainPage from './Components/MainPage/MainPage';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
 
 function App() {
   return (
     <div className='App-background'>
-      <LoginPage/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="" element={ <LoginPage/>} />
+        <Route path="main-page" element={<MainPage/>}/>
+        
+      </Routes>
+      </BrowserRouter>
+     
     </div>
   );
 }

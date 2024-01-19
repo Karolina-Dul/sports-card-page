@@ -1,0 +1,16 @@
+.page-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px rgb(50, 50, 50, 0.5) solid;
+}
+
+.page-row div {
+  /* border: 2px red solid; */
+  width: 30%;
+  padding: 0.5rem;
+}
+
+.page-row div:first-child {
+  width: 2.5rem;
+}

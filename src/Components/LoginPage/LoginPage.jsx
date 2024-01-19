@@ -1,22 +1,23 @@
 import React from "react";
-import "../Components/LoginPage.css";
+import { Link } from "react-router-dom";
+import "../LoginPage/LoginPage.css";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 // import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import logoBenefit from "../Images/logoBenefit.png";
-import logoMultisport from "../Images/MultiSport_logo.png";
-import logoMultiLife from "../Images/MultiLife_logo.png";
-import logoMyBenefit from "../Images/MyBenefit_logo.png";
+import logoBenefit from "../../Images/logoBenefit.png";
+import logoMultisport from "../../Images/MultiSport_logo.png";
+import logoMultiLife from "../../Images/MultiLife_logo.png";
+import logoMyBenefit from "../../Images/MyBenefit_logo.png";
 
 function Copyright(props) {
   return (
@@ -125,8 +126,12 @@ const LoginPage = () => {
             alt="logo Benefit Systems"
             className="logo-benefit-systems"
           />
-          <h2>Jedno partner - wiele możliwości!</h2>
-          <h2>NASZE PRODUKTY</h2>
+          <h3 className="LP-text">
+            Jeden partner, a tak wiele możliwości! Już dziś sprawdź naszą ofertę
+            i podaruj swoim pracownikom możliwości oferowane przez nasze
+            produkty:
+          </h3>
+
           <div className="LP-logo-products">
             <img
               src={logoMultisport}
@@ -146,6 +151,9 @@ const LoginPage = () => {
           </div>
         </section>
       </section>
+      <Link to="main-page" className="LP-skip-button">
+        Pomiń okno logowania
+      </Link>
     </>
   );
 };

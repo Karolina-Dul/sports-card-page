@@ -1,0 +1,23 @@
+.main-page-table {
+  margin-top: 250px;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+.table-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+.table-headers div {
+  width: 30%;
+  padding: 0.5rem;
+  background-color: rgb(50, 50, 50);
+  color: aliceblue;
+}
+
+.table-headers div:first-child {
+  width: 2.5rem;
+}

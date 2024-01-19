@@ -1,0 +1,42 @@
+export const WORKERS = [
+  {
+    id: 1,
+    name: "Anna Nowak",
+    card: "Classic",
+    cofinancing: 50,
+    cardNumber: "839583291",
+    cardStatus: "active",
+  },
+  {
+    id: 2,
+    name: "Jan Kowalski",
+    card: "Classic",
+    cofinancing: 50,
+    cardNumber: "839583291",
+    cardStatus: "active",
+  },
+  {
+    id: 3,
+    name: "Patrycja Graczyk",
+    card: "Classic",
+    cofinancing: 50,
+    cardNumber: "839583291",
+    cardStatus: "inactive",
+  },
+  {
+    id: 4,
+    name: "Marta Iwańczak",
+    card: "Classic",
+    cofinancing: 50,
+    cardNumber: "839583291",
+    cardStatus: "inactive",
+  },
+  {
+    id: 5,
+    name: "Piotr Grom",
+    card: "Classic",
+    cofinancing: 50,
+    cardNumber: "839583291",
+    cardStatus: "active",
+  },
+];
